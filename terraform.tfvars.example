@@ -1,0 +1,14 @@
+
+# 필수 값: 프로젝트 접두사
+product_name = "test"
+
+# 선택: 여러 구독 중 특정 구독을 고정하고 싶을 때
+# subscription_id = "00000000-0000-0000-0000-000000000000"
+
+# 필요 시 vnets 기본값을 수정하세요 (네이밍 규칙은 유지 권장)
+# vnets = {
+#   spoke1 = { name = "hub",     address_space = "10.0.0.0/20" }
+#   spoke2 = { name = "prod",    address_space = "10.1.0.0/16" }
+#   spoke3 = { name = "staging", address_space = "10.2.0.0/16" }
+#   spoke4 = { name = "dev",     address_space = "10.3.0.0/16" }
+# }
